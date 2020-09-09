@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int i, sum;
+    sum = 0;
+    for(i = 0; i<= 5; ++i)
+    {
+        sum += i;
+    }
+    printf("0부터 5까지의 합은 %d이다", sum);
+    return 0;
+}
