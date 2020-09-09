@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+	int n, d, result;
+	printf("분자를 입력하시오 :");
+	scanf("%d", &n);
+	printf("분모를 입력하시오 :");
+	scanf("%d", &d);
+	if(d==0) 
+	printf("0으로 나눌 수 없습니다");
+	else 
+	printf("결과는 %lf입니다", (float)n/d);
+	return 0; 
+}
