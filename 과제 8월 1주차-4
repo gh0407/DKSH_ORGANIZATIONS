@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main()
+{
+	int a = 5;
+	if (a < 10) printf("a는 10보다 작습니다");
+	else printf("a는 10보다 큽니다");
+	return 0; 
+}
