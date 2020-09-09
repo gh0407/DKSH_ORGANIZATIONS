@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+float rate, usd;
+int krw;
+printf("환율을 입력하세요:");
+scanf("%f", &rate);
+printf("원화를 입력하세요:");
+scanf("%d", &krw);
+usd = krw / rate;
+printf("%d는 %f달러입니다.", krw, usd);
+return 0;
+}
