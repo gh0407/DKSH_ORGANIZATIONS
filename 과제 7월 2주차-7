@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+char m, n;
+m = 'A';
+n = 65;
+printf("m의 값 출력 : %c \n", m);
+printf("n의 값 출력 : %c \n", n);
+printf("아스키 코드 65 값 출력 : %c \n", 65);
+printf("아스키 코드 65+1 값 출력 : %c \n", 66);
+return 0;
+}
