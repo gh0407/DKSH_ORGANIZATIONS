@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int a, b, temp, i, k;
+    i = 0, k = 0;
+    printf("시작값, 끝값, 증가값을 입력하시오 >");
+    scanf("%d %d %d", &a, &b, &temp);
+    for(i = a; i < b; i=i+temp)
+    {
+        k = k + i;
+    }
+    printf("%d부터 %d까지 %d를 증가한 값을 더한 수는 %d 입니다.", a, b, temp, k);
+    return 0;
+}
