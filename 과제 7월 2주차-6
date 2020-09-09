@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()  {
+int a;
+a = 30;
+printf("%d의 제곱값은 %d입니다", a, a*a);
+return 0;
+}
