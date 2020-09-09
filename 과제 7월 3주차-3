@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+int ysalary, msalary;
+printf("연봉을 입력하십시오(만원) : ")
+scanf("%d", &ysalary);
+msalary = ysalary / 12;
+printf("당신의 연봉은 %d만원입니다.\n", ysalary);
+printf("당신의 월급은 %d만원입니다.", msalary);
+return 0;
+}
